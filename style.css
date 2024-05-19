@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  background-color: rgb(26, 42, 56);
+  padding: 5rem 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #edebeb;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+}
+
+.container h1,
+.emoji-container,
+.container button {
+  margin-bottom: 1rem;
+}
+
+.emoji-container {
+  font-size: 10rem;
+}
+
+.container button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
